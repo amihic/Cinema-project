@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+	<title>Odgledani filmovi</title>
+	       <meta charset="utf-8"/>
+	      <meta name="viewport" content="width=device-width, initial-scale=1">
+	     <link rel="stylesheet" type="text/css" href="/css/prijava.css"/>
+	  
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  		 <script src="/js/jquery.min.js"></script>
+  		<script type="text/javascript" src="/js/odgledaniFilmovi.js"></script>
+
+  		
+	</head>
+	
+	<body style="background-color: #8585ad">
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">FILMOVI</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Pocetna</a></li>
+        <li><a href="bioskop.html">Bioskopi</a></li>
+        <li><a href="filmovi.html">Filmovi</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+     <li><a href="registrationMan.html">Registracija menadzera</a></li>
+      <li><a href="registration.html">Registracija korisnika</a></li>
+        <li><a href="prijava.html"> Prijava</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+		<div class="container">
+  <h2>Pregled svih odgledanih filmova</h2>
+          
+  <table class="table table-dark table-striped" id="odgledaniFilmovi">
+
+	<thead>
+      <tr>
+      
+        <th scope="col">Naziv</th>
+        <th scope="col">Opis</th>
+        <th scope="col">Zanr</th>
+        <th scope="col">Trajanje</th>
+        <th scope="col">Ocena</th>
+       
+      </tr>
+     </thead>
+   
+   
+      
+
+  </table>
+</div>
+	</body>
+
+	</html>

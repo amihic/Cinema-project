@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <title>Dodavanje rasporeda</title>
+	    <meta charset="utf-8"/>
+	    <link rel="stylesheet" type="text/css" href="/css/prijava.css"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  		 <script src="/js/jquery.min.js"></script>
+  		<script type="text/javascript" src="/js/dodajRaspored.js"></script>
+  	
+
+  		
+	</head>
+	<body style="background-color: #8585ad"">
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">BIOSKOP</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Pocetna</a></li>
+        <li><a href="bioskop.html">Bioskopi</a></li>
+        <li><a href="filmovi.html">Filmovi</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+     <li><a href="registrationMan.html">Registracija menadzera</a></li>
+      <li><a href="registration.html">Registracija korisnika</a></li>
+        <li><a href="prijava.html"> Prijava</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	<form action="bioskop.html">
+  <div class="container">
+    <h1>Dodavanje rasporeda</h1>
+    
+    <hr>	
+    <label for="dan"><b>Dan</b></label>
+    <input type="text"   id="dan" required>
+   
+    
+    <label for="cena"><b>Cena</b></label>
+    <input type="text"  id="cena" required>	
+    
+     <label for="vreme"><b>Vreme</b></label>
+    <input type="text"  id="vreme" required>
+   
+    
+
+
+
+    <button type="submit" class="registerbtn">Dodaj raspored</button>
+  </div>
+  
+ 
+</form>
+	</body>
+</html>
